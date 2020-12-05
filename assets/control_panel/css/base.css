@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* 20180918 www.hackers.co.kr WebPublisher  P.K.Min */
+
+/*기본태그 정의*/
+html, body {padding:0;margin:0;height:100%;}
+body, td, select, textarea, input {font-size:14px;font-family:'맑은 고딕','Malgun Gothic','돋움','Dotum', 'verdana';color:#707070;}
+
+/* 마진과 패딩의 초기화 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {margin:0;padding:0;}
+
+/* 헤더 폰트 사이즈 초기화 */
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+
+/* 리스트의 스타일 제거 */
+ol, ul {list-style:none;}
+
+/* 테이블 스타일 초기화 */
+table {border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+
+/* 이미지 및 필드셋에서 보더 표시 초기화 */
+fieldset, img {border:0;}
+img{vertical-align:middle;}
+
+/* 캡션 텍스트 정렬 초기화 */
+caption {text-align:left;}
+
+/* 폼태그의 초기화 */
+select {font-size:17px;font-family:'맑은 고딕','Malgun Gothic','돋움','Dotum', 'verdana';color:#000;vertical-align:middle;}
+input {font-size:14px;font-family:'맑은 고딕','Malgun Gothic','돋움','Dotum', 'verdana';color:#000;}
+textarea {font-size:14px;font-family:'맑은 고딕','Malgun Gothic','돋움','Dotum', 'verdana';color:#000;line-height:140%;}
+input[type="checkbox"] {vertical-align:middle;margin-top:-2px;}
+input[type="radio"] {vertical-align:middle;margin-top:-2px;}
+input[type="button"], button{border:0;background-color:transparent;white-space:nowrap;cursor:pointer}
+
+a:link    {color:#707070; text-decoration:none;}
+a:active    {color:#707070; text-decoration:none;}
+a:visited    {color:#707070; text-decoration:none;}
+a:hover    {color:#707070; text-decoration:none;}
+
+/* hidden 처리 */
+hr,caption{width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;}
+.hide{position:absolute;top:-9999px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;}
+button {border:0 none;background-color:transparent;cursor:pointer}
